@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="770.0" style="-fx-background-position: center; -fx-background-size: auto;" stylesheets="@../../../css/Style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.course.ControllerMain">
    <children>
       <TextField fx:id="input" alignment="CENTER" layoutX="55.0" layoutY="109.0" prefHeight="55.0" prefWidth="680.0" promptText="Введите массив">
@@ -24,20 +23,35 @@
             <Font name="Verdana" size="15.0" />
          </font>
       </Label>
-      <Button fx:id="button" layoutX="304.0" layoutY="263.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="183.0" style="-fx-background-color: none;" text="Сортировать">
+      <Button fx:id="button" layoutX="304.0" layoutY="317.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="183.0" style="-fx-background-color: none;" text="Сортировать">
          <font>
             <Font name="Verdana" size="20.0" />
          </font>
       </Button>
-      <Button fx:id="info" layoutX="304.0" layoutY="372.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="183.0" style="-fx-background-color: none;" text="Инструкция">
+      <Button fx:id="info" layoutX="573.0" layoutY="367.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="183.0" style="-fx-background-color: none;" text="Инструкция">
          <font>
             <Font name="Verdana" size="20.0" />
          </font>
       </Button>
-      <Button fx:id="clear" layoutX="329.0" layoutY="323.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="132.0" style="-fx-background-color: none;" text="Очистить">
+      <Button fx:id="clear" layoutX="329.0" layoutY="367.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="132.0" style="-fx-background-color: none;" text="Очистить">
          <font>
             <Font name="Verdana" size="20.0" />
          </font>
       </Button>
+      <Button fx:id="reg" layoutY="317.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="183.0" style="-fx-background-color: none;" text="Регистрация">
+         <font>
+            <Font name="Verdana" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="auto" layoutY="367.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="183.0" style="-fx-background-color: none;" text="Авторизация">
+         <font>
+            <Font name="Verdana" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="outputTwo" alignment="CENTER" layoutX="293.0" layoutY="239.0" prefHeight="55.0" prefWidth="224.0">
+         <font>
+            <Font name="Verdana" size="15.0" />
+         </font>
+      </Label>
    </children>
 </Pane>
